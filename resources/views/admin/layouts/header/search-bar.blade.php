@@ -8,18 +8,9 @@
             <div class="navbar-brand">
                 <!-- Logo icon -->
                 <a href="{{ route('admin.dashboard.index') }}">
-                    <b class="logo-icon">
-                        <!-- Dark Logo icon -->
-                        {{-- <img src="{{ asset('assets/backend/images/logo-icon.png') }}" alt="homepage"
-                        class="dark-logo" />
-                        <!-- Light Logo icon -->
-                        <img src="{{ asset('assets/backend/images/logo-icon.png') }}" alt="homepage" class="light-logo" /> --}}
-                    </b>
+                    {{env('APP_NAME')}}
                 </a>
             </div>
-            <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="ti-more"></i>
-            </a>
         </div>
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav float-left mr-auto ml-3 pl-1"></ul>
