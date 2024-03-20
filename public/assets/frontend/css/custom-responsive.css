@@ -1,0 +1,46 @@
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  ul.wsmenu-list {
+    background: #123262 !important;
+  }
+
+  .ch-pro-title {
+    white-space: nowrap;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #scrollUp {
+    display: block !important;
+  }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ul.wsmenu-list {
+    background: #123262 !important;
+  }
+
+  #scrollUp {
+    display: block !important;
+  }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  ul.wsmenu-list {
+    background: #123262 !important;
+  }
+
+  .ch-pro-title {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #scrollUp {
+    display: block !important;
+  }
+}

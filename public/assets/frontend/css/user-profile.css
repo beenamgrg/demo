@@ -1,0 +1,68 @@
+#profile-table .container {}
+
+.profile-orders-table {
+    width: 100%;
+}
+
+.profile-nav-links>li>a.nav-link.active>p {
+    color: white;
+}
+
+.profile-nav-links>li>a.nav-link>p {
+    margin: 8px;
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    ul.wsmenu-list {
+        background: #123262 !important;
+    }
+
+    .ch-pass-container {
+        width: 100%;
+    }
+
+    .update-profile-container {
+        width: 100%;
+    }
+}
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    ul.wsmenu-list {
+        background: #123262 !important;
+    }
+
+    .ch-pass-container {
+        width: 100%;
+    }
+
+    .update-profile-container {
+        width: 100%;
+    }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+    ul.wsmenu-list {
+        background: #123262 !important;
+    }
+
+    .profile-nav-container {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .update-profile-container {
+        width: 100%;
+    }
+
+    .profile-orders-table {
+        margin-top: 20px;
+    }
+
+    .ch-pass-container {
+        width: 100%;
+    }
+}

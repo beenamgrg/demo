@@ -1,0 +1,73 @@
+/* list of animations */
+
+/* left fade in animation */
+.l-fade-hdn {
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: all 0.5s;
+  filter: blur(5px);
+}
+
+.l-fade-show {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+/* right fade in animation */
+
+.r-fade-hdn {
+  opacity: 0;
+  transform: translateX(10%);
+  transition: all 0.5s;
+  filter: blur(5px);
+}
+
+.r-fade-show {
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+/* fade up animation */
+.up-fade-hdn {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: all 1s;
+}
+
+.up-fade-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* fade up animation */
+.up-fade-hdn-p {
+  opacity: 0;
+  transform: translateY(10%);
+  transition: all 4s;
+}
+
+.up-fade-hdn-p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* service bubble animation */
+/* fade up animation */
+.sb-up-fade-hdn {
+  opacity: 0;
+  transform: translateY(20%);
+  transition: all 1s;
+}
+
+.sb-up-fade-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sb-up-fade-show-hdd {
+  opacity: 1 !important;
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
